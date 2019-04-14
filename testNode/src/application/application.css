@@ -1,0 +1,12 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.toggle-button {
+    -fx-background-color: green;
+    -fx-background-radius: 100;
+    -fx-border-radius: 100;
+    -fx-border-width: 4;
+
+}
+
+.toggle-button:selected {
+    -fx-background-color: yellow;
+}

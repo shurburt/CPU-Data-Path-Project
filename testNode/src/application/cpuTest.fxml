@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="217.0" layoutX="62.0" layoutY="129.0" stroke="BLACK" strokeType="INSIDE" width="164.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="236.0" layoutX="391.0" layoutY="129.0" stroke="BLACK" strokeType="INSIDE" width="212.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="217.0" layoutX="904.0" layoutY="129.0" stroke="BLACK" strokeType="INSIDE" width="212.0" />
+      <Ellipse fill="WHITE" layoutX="357.0" layoutY="267.0" radiusX="20.0" radiusY="52.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse fill="WHITE" layoutX="698.0" layoutY="302.0" radiusX="20.0" radiusY="52.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="185.0" fitWidth="100.0" layoutX="748.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../OneDrive/Pictures/ALU.png" />
+         </image>
+      </ImageView>
+      <Ellipse fill="WHITE" layoutX="1180.0" layoutY="267.0" radiusX="20.0" radiusY="52.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse fill="WHITE" layoutX="558.0" layoutY="455.0" radiusX="45.0" radiusY="66.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line fx:id="line01" endX="46.0" layoutX="225.0" layoutY="245.0" scaleY="3.0" />
+      <Line fx:id="line11" endX="93.0" layoutX="225.0" layoutY="199.0" rotate="90.0" scaleY="3.0" />
+      <Line fx:id="line12" endX="100.0" layoutX="292.0" layoutY="154.0" scaleY="3.0" startX="-21.0" />
+      <Line fx:id="line21" endX="35.0" layoutX="254.0" layoutY="226.0" rotate="90.0" scaleY="3.0" />
+      <Line fx:id="line22" endX="100.0" layoutX="292.0" layoutY="210.0" scaleY="3.0" startX="-21.0" />
+      <Line fx:id="line31" endX="63.0" layoutX="273.0" layoutY="273.0" scaleY="3.0" startY="-14.0" />
+      <Line fx:id="line41" endX="100.0" layoutX="652.0" layoutY="186.0" scaleY="3.0" startX="-48.0" />
+      <Line fx:id="line51" endX="25.0" layoutX="652.0" layoutY="279.0" scaleY="3.0" startX="-48.0" />
+      <Line fx:id="line02" endX="38.0" layoutX="716.0" layoutY="299.0" scaleY="3.0" />
+      <Line fx:id="line61" endX="30.0" layoutX="603.0" layoutY="279.0" scaleY="3.0" />
+      <Line fx:id="line62" endX="90.0" layoutX="588.0" layoutY="323.0" rotate="90.0" scaleY="3.0" />
+      <Line fx:id="line63" endX="141.0" layoutX="732.0" layoutY="367.0" scaleY="3.0" startX="-100.0" />
+      <Line fx:id="line64" endX="71.0" layoutX="837.0" layoutY="332.0" rotate="90.0" scaleY="3.0" />
+      <Line fx:id="line65" endX="32.0" layoutX="873.0" layoutY="299.0" scaleY="3.0" />
+      <Line fx:id="line71" endX="32.0" layoutX="827.0" layoutY="240.0" scaleY="3.0" />
+      <Line fx:id="line72" endX="64.0" layoutX="826.0" layoutY="208.0" rotate="90.0" scaleY="3.0" />
+      <Line fx:id="line73" endX="44.0" layoutX="858.0" layoutY="175.0" scaleY="3.0" />
+      <Line fx:id="line81" endX="120.0" layoutX="839.0" layoutY="349.0" rotate="90.0" scaleY="3.0" startX="-100.0" />
+      <Line fx:id="line82" endX="177.0" layoutX="950.0" layoutY="456.0" scaleY="3.0" startX="-100.0" />
+      <Line fx:id="line83" endX="64.0" layoutX="1146.0" layoutY="374.0" rotate="90.0" scaleY="3.0" startX="-100.0" />
+      <Line fx:id="line84" endX="32.0" layoutX="1127.0" layoutY="290.0" scaleY="3.0" />
+      <Line fx:id="line91" endX="41.0" layoutX="1118.0" layoutY="246.0" scaleY="3.0" />
+      <Line fx:id="line101" endX="32.0" layoutX="1201.0" layoutY="266.0" scaleY="3.0" />
+      <Line fx:id="line102" endX="150.0" layoutX="1227.0" layoutY="407.0" rotate="90.0" scaleY="3.0" startX="-133.0" />
+      <Line fx:id="line103" endX="899.0" layoutX="337.0" layoutY="551.0" scaleY="3.0" startX="7.0" />
+      <Line fx:id="line104" endX="110.0" layoutX="340.0" layoutY="447.0" rotate="90.0" scaleY="3.0" startX="-100.0" />
+      <Line fx:id="line105" endX="32.0" layoutX="360.0" layoutY="341.0" scaleY="3.0" startX="-15.0" />
+      <ToggleButton fx:id="tb1" layoutX="259.0" layoutY="231.0" mnemonicParsing="false" onAction="#handleNode" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton fx:id="tb2" layoutX="379.0" layoutY="142.0" mnemonicParsing="false" onAction="#handleNode" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton fx:id="tb3" layoutX="379.0" layoutY="198.0" mnemonicParsing="false" onAction="#handleNode" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton fx:id="tb4" layoutX="324.0" layoutY="233.0" mnemonicParsing="false" onAction="#handleNode" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton fx:id="tb5" layoutX="324.0" layoutY="277.0" mnemonicParsing="false" onAction="#handleNode" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton fx:id="tb8" layoutX="591.0" layoutY="265.0" mnemonicParsing="false" onAction="#handleNode" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton fx:id="tb6" layoutX="591.0" layoutY="174.0" mnemonicParsing="false" onAction="#handleNode" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton fx:id="tb7" layoutX="736.0" layoutY="174.0" mnemonicParsing="false" onAction="#handleNode" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton fx:id="tb13" layoutX="892.0" layoutY="162.0" mnemonicParsing="false" onAction="#handleNode" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton fx:id="tb11" layoutX="892.0" layoutY="287.0" mnemonicParsing="false" onAction="#handleNode" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton fx:id="tb12" layoutX="814.0" layoutY="225.0" mnemonicParsing="false" onAction="#handleNode" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton fx:id="tb14" layoutX="1104.0" layoutY="233.0" mnemonicParsing="false" onAction="#handleNode" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton fx:id="tb15" layoutX="1148.0" layoutY="233.0" mnemonicParsing="false" onAction="#handleNode" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton fx:id="tb16" layoutX="1148.0" layoutY="278.0" mnemonicParsing="false" onAction="#handleNode" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton fx:id="tb17" layoutX="1188.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleNode" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton fx:id="tb18" layoutX="380.0" layoutY="328.0" mnemonicParsing="false" onAction="#handleNode" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton layoutX="503.0" layoutY="432.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton layoutX="591.0" layoutY="432.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton fx:id="tb9" layoutX="666.0" layoutY="266.0" mnemonicParsing="false" onAction="#handleNode" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+      <ToggleButton fx:id="tb10" layoutX="666.0" layoutY="320.0" mnemonicParsing="false" onAction="#handleNode" prefHeight="25.0" prefWidth="25.0" stylesheets="@application.css" />
+   </children>
+</Pane>
