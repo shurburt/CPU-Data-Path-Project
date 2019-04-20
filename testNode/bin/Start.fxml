@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="1370.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StartController">
+   <children>
+      <Label layoutX="438.0" layoutY="30.0" prefHeight="17.0" prefWidth="495.0" text="DataPath" textAlignment="CENTER">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="start" layoutX="547.0" layoutY="292.0" mnemonicParsing="false" onAction="#handleStart" prefHeight="116.0" prefWidth="276.0" text="Start">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
